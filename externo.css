@@ -1,0 +1,50 @@
+h1{
+    margin-top: 10rem;
+font-family: arial;        
+color: blue;
+}
+body{font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#caixa1 {
+
+    width: 1300PX;
+    height: 600px;
+    border: solid red;
+    padding: 10px;
+    margin: 10px;
+   
+}
+#caixa2 {
+
+    width: 200PX;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden visible;
+
+   
+}
+
+#caixa3 {
+
+    width: 300PX;
+    height: 600px;
+    padding: 10px;
+    margin: 10px;
+   
+    overflow: scroll;
+
+   
+}
+#caixa4 {
+
+    width: 100PX;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: solid red;
+    overflow: auto;
+   
+}
