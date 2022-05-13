@@ -1,50 +1,85 @@
-h1{
-    margin-top: 10rem;
-font-family: arial;        
-color: blue;
-}
+
 body{font-family: Arial, Helvetica, sans-serif;
 
 }
+h1{
+    margin-top: 1rem;
+font-family: arial;        
+}
+#divbackgroudcolor{
+    margin-top: 5rem;
+    width: 1300px;
+   height: 100px;
+   background-color: blue;
+}
 
-#caixa1 {
 
-    width: 1300PX;
+#divbackgroudcolortranparenc{
+    width: 1300px;
+   height: 200px;
+   background-color: rgba(0, 0, 255, 0.13)
+}
+#divbackgroudcolorgrad{
+    width: 1300px;
+   height: 200px;
+   background: linear-gradient(100deg,red 10%,blue 50%,green,black); 
+  
+}
+#divbackgroudcolorimage{
+   background-image: url("https://ayltoninacio.com.br/img/p/32w1500.jpg");
+   width: 1300px;
+   height: 600px;
+font-family: arial;        
+color: blue;
+}
+
+#divbackgroudcolorimagerepet{
+    background-image: url("https://www.shareicon.net/data/256x256/2015/08/28/92043_html_512x512.png");
+    width: 1300px;
     height: 600px;
-    border: solid red;
-    padding: 10px;
-    margin: 10px;
-   
+ font-family: arial;        
+ color: blue;
+ }
+
+
+ /* segunda pagina- bordas.html*/
+#bordersimples{
+    width: 300px;
+   height: 300px;
+   background-color: rgba(24, 27, 21, 0.13);
+  border: solid red;
+  display: inline-block;
+
 }
-#caixa2 {
-
-    width: 200PX;
-    height: 200px;
-    padding: 10px;
-    margin: 10px;
-    overflow: hidden visible;
-
-   
+#borderespessura{
+    width: 300px;
+   height: 300px;
+   background-color: rgba(24, 27, 21, 0.53);
+  border: 0.5rem solid red;
+  display: inline-block;
+  
 }
-
-#caixa3 {
-
-    width: 300PX;
+#borderarredondada{
+    width: 300px;
+   height: 300px;
+   background-color: rgba(122, 238, 5, 0.43);
+  border-radius: 50px ;
+ 
+}
+#borderarredondadabottom{
+    width: 300px;
+   height: 300px;
+   background-color: rgba(24, 27, 21, 0.73);
+  border-bottom-left-radius: 100px;
+ 
+}
+/* teceira pagina- bordas.html*/
+#redondo{
+    width: 600px;
     height: 600px;
-    padding: 10px;
-    margin: 10px;
-   
-    overflow: scroll;
+   background-color: rgba(24, 27, 21, 0.73);
 
-   
-}
-#caixa4 {
-
-    width: 100PX;
-    height: 100px;
-    padding: 10px;
-    margin: 10px;
-    border: solid red;
-    overflow: auto;
-   
+  background-image: url("https://pt.seaicons.com/wp-content/uploads/2015/11/css-3-icon.png")  ;
+  border-radius: 300px;
+ 
 }
